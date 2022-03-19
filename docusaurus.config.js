@@ -39,6 +39,13 @@ const config = {
     ],
   ],
 
+  plugins: [
+    ['demo-block', {}],
+    ['drawio', {}],
+    ['mindmap', {}],
+  ],
+
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
